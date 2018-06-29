@@ -33,8 +33,7 @@ body{background:url(../temp/bj0.jpg);}
 .ptb_20{padding:10px 10px}
 .plr_10{padding:10px 10px}
 
-
-.top{width:100%; height:100%; background:url(../temp/bj1.jpg) no-repeat center 0; position:relative}
+.top{max-width: 100%; height: auto; background:url(../temp/bj1.jpg) no-repeat center 0; position:relative}
 .nav{position:absolute; width:894px; height:46px; line-height:46px; left:50%; margin-left:-512px; bottom:25px; background:url(../temp/nav.jpg) no-repeat; padding:0px 65px}
 .nav a{display:block; width:10%; height:46px; float:left; text-align:center; color:#584036; font-size:14px}
 .nav a:hover,.nav a.hover{background:url(../temp/nava.jpg) no-repeat center center}
@@ -86,7 +85,7 @@ body{background:url(../temp/bj0.jpg);}
 .div1 a p{position:absolute; width:100%; text-align:center; height:30px; line-height:30px; color:#fff; font-size:14px; z-index:1; left:0; bottom:0; background:url(../temp/tt.png)}
 .div1 a img{width:100%; height:195px}
 
-.map_box{height:100%; width:100%}
+.map_box{height:90px; width:90px}
 .ul2{height:90px; margin:9px 0}
 .ul2 li{height:30px; line-height:30px; padding-left:20px; background:url(../temp/li.jpg) no-repeat 0 10px; font-size:14px;}
 .contact_txt{height:120px; line-height:23px; font-size:14px;margin:5px 0; color:#666;}
