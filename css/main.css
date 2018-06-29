@@ -1,48 +1,43 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
 
-@charset "utf-8";
-/* CSS Document */
-.tabtop13 {
-	margin-top: 13px;
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
-.tabtop13 td{
-	background-color:#ffffff;
-	height:25px;
-	line-height:150%;
-}
-.font-center{ text-align:center}
-.btbg{background:#e9faff !important;}
-.btbg1{background:#f2fbfe !important;}
-.btbg2{background:#f3f3f3 !important;}
-.biaoti{
-	font-family: 微软雅黑;
-	font-size: 26px;
-	font-weight: bold;
-	border-bottom:1px dashed #CCCCCC;
-	color: #255e95;
-}
-.titfont {
-	
-	font-family: 微软雅黑;
-	font-size: 16px;
-	font-weight: bold;
-	color: #255e95;
-	background: url(../images/ico3.gif) no-repeat 15px center;
-	background-color:#e9faff;
-}
-.tabtxt2 {
-	font-family: 微软雅黑;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: right;
-	padding-right: 10px;
-	color:#327cd1;
-}
-.tabtxt3 {
-	font-family: 微软雅黑;
-	font-size: 14px;
-	padding-left: 15px;
-	color: #000;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	line-height: 20px;
+
+ul.posts li {
+    list-style: none;
 }
