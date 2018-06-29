@@ -89,7 +89,7 @@ body{background:url(../temp/bj0.jpg);}
 .ul2 li{height:30px; line-height:30px; padding-left:20px; background:url(../temp/li.jpg) no-repeat 0 10px; font-size:14px;}
 .contact_txt{height:120px; line-height:23px; font-size:14px;margin:5px 0; color:#666;}
 .anecdote_box{ height:122px; background:url(../temp/anecdote_box.png) no-repeat; padding:0 40px 0 140px;}
-.ul3{height:90px; float:left; padding-top:10px}
+.ul3{height:90px; float:left; padding-top:20px}
 .ul3 li{float:left; padding-right:30px; text-align:center}
 .ul3 li a{width:90px; height:80px;}
 .ul3 li a p{ line-height:20px; height:30px;}
