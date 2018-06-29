@@ -59,9 +59,9 @@ body{background:url(../temp/bj0.jpg);}
 .title_t .t{font-size:18px}
 .title_t .more{display:block; width:44px; height:17px; background:url(../temp/more.jpg) no-repeat; margin:14px 10px; float:right}
 
-.ul1{height:245px; width:708px}
+.ul1{height:300px; width:708px}
 .ul1 li{float:left; padding-right:6px}
-.ul1 li a{display:block; width:170px; height:245px; position:relative}
+.ul1 li a{display:block; width:170px; height:300px; position:relative}
 .ul1 li a p{position:absolute; width:100%; text-align:center; height:30px; line-height:30px; color:#fff; font-size:14px; z-index:1; left:0; bottom:0; background:url(../temp/tt.png)}
 .ul1 li a img{max-width: 100%; height: auto;}
 
