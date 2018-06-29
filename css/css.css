@@ -35,12 +35,12 @@ body{background:url(../temp/bj0.jpg);}
 
 .top{height:400px; background:url(../temp/bj11.jpg) no-repeat center 0; position:relative}
 .nav{position:absolute; width:894px; height:46px; line-height:46px; left:50%; margin-left:-512px; bottom:25px; background:url(../temp/nav.jpg) no-repeat; padding:0px 65px}
-.nav a{display:block; width:10%; height:46px; float:left; text-align:center; color:#ADFF2F; font-size:18px}
+.nav a{display:block; width:20%; height:46px; float:left; text-align:center; color:#584036; font-size:22px}
 .nav a:hover,.nav a.hover{background:url(../temp/nava.jpg) no-repeat center center}
 
 .summary_bj{background:url(../temp/summary_bj.jpg); padding:15px 0}
 .summary_box{height:220px; background:url(../temp/summary_box.jpg) no-repeat; padding:12px 30px 12px 220px; position:relative; font-size:14px; line-height:24px; color:#666; overflow:hidden}
-.summary_box .img{width:200px; height:200px; position:absolute; left:30px; top:12px}
+.summary_box .img{width:170px; height:220px; position:absolute; left:30px; top:12px}
 .summary_box p .t{color:#333}
 .summary_box a{color:#b18c03}
 
@@ -84,16 +84,15 @@ body{background:url(../temp/bj0.jpg);}
 .div1 a p{position:absolute; width:100%; text-align:center; height:30px; line-height:30px; color:#fff; font-size:14px; z-index:1; left:0; bottom:0; background:url(../temp/tt.png)}
 .div1 a img{width:100%; height:195px}
 
-.map_box{height:30px}
+.map_box{width:150px; xheight:150px}
 .ul2{height:90px; margin:9px 0}
 .ul2 li{height:30px; line-height:30px; padding-left:20px; background:url(../temp/li.jpg) no-repeat 0 10px; font-size:14px;}
 .contact_txt{height:120px; line-height:23px; font-size:14px;margin:5px 0; color:#666;}
-.anecdote_box{ height:122px; background:url(../temp/anecdote_box.png) no-repeat; padding:0 40px 0 140px;}
-.anecdote_box .more{display:blockl; width:103px; height:42px; float:right; margin:40px 0; background:url(../temp/more.png) no-repeat}
+.anecdote_box{ height:122px; background:url(../temp/anecdote_box.png) no-repeat; padding:0 10px 0 20px;}
+.anecdote_box .t{font-size:18px}
 .ul3{height:90px; float:left; padding-top:21px}
 .ul3 li{float:left; padding-right:30px; text-align:center}
 .ul3 li a{display:block; width:60px; height:90px;}
-.ul3 li a img{display:block; width:60px; height:60px;-moz-border-radius:50px;-webkit-border-radius:50px;border-radius:50px;}
 .ul3 li a p{ line-height:30px; height:30px;}
 
 .portrait_box{height:243px; background:#fff; border:2px solid #eae1d1; position:relative}
