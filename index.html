@@ -96,18 +96,49 @@
       </ul>
     </div>
     <div class="portrait_box mt_10">
-      <div class="title_t"><a href="影相集珍.html" class="more"></a><i class="i6"></i><span class="t">影相集珍</span></div>
-      <span class="pic tl"></span>
-      <span class="pic tr"></span>
-      <span class="pic bl"></span>
-      <span class="pic br"></span>
-      <ul class="ul4">
-        <li><a href="#"><img src="image/cs3.jpg" /></a></li>
-        <li><a href="#"><img src="image/cs4.jpg" /></a></li>
-        <li><a href="#"><img src="image/cs5.jpg" /></a></li>
-        <li><a href="#"><img src="image/cs6.jpg" /></a></li>
-        <li><a href="#"><img src="image/cs7.jpg" /></a></li>
-      </ul>
+      <style>
+      .scroll_div {width:600px; height:62px;margin:0 auto; overflow: hidden; white-space: nowrap; background:#ffffff;}
+      .scroll_div img {width:120px;height:60px;border: 0;margin: auto 8px; border:1px #efefef solid;}
+      #scroll_begin, #scroll_end, #scroll_begin ul, #scroll_end ul, #scroll_begin ul li, #scroll_end ul li{display:inline;}
+      </style>
+      <script language="javascript">
+      function ScrollImgLeft(){
+      var speed=20
+      var scroll_begin = document.getElementById("scroll_begin");
+      var scroll_end = document.getElementById("scroll_end");
+      var scroll_div = document.getElementById("scroll_div");
+      scroll_end.innerHTML=scroll_begin.innerHTML
+      function Marquee(){
+          if(scroll_end.offsetWidth-scroll_div.scrollLeft<=0)
+            scroll_div.scrollLeft-=scroll_begin.offsetWidth
+          else
+            scroll_div.scrollLeft++
+      }
+      var MyMar=setInterval(Marquee,speed)
+      scroll_div.onmouseover=function() {clearInterval(MyMar)}
+      scroll_div.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+      }
+      </script>
+      <h2 align="center">向左滚动</h2>
+      <div style="text-align:center">
+      <div class="sqBorder">
+          <!--#####滚动区域#####-->
+          <div id="scroll_div" class="scroll_div">
+            <div id="scroll_begin">
+              <ul>
+                <li><a href="#"><img src="image/cs3.jpg" /></a></li>
+                <li><a href="#"><img src="image/cs4.jpg" /></a></li>
+                <li><a href="#"><img src="image/cs5.jpg" /></a></li>
+                <li><a href="#"><img src="image/cs6.jpg" /></a></li>
+                <li><a href="#"><img src="image/cs7.jpg" /></a></li>
+              </ul>
+            </div>
+            <div id="scroll_end"></div>
+          </div>
+          <!--#####滚动区域#####-->
+      </div>
+      <script type="text/javascript">ScrollImgLeft();</script>
+      </div>
     </div>
   </div>
 </div>
