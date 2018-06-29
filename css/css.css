@@ -35,7 +35,7 @@ body{background:url(../temp/bj0.jpg);}
 
 .top{height:400px; background:url(../temp/bj11.jpg) no-repeat center 0; position:relative}
 .nav{position:absolute; width:894px; height:46px; line-height:46px; left:50%; margin-left:-512px; bottom:25px; background:url(../temp/nav.jpg) no-repeat; padding:0px 65px}
-.nav a{display:block; width:20%; height:46px; float:left; text-align:center; color:#584036; font-size:16px}
+.nav a{width:20%; height:46px; float:left; text-align:center; color:#584036; font-size:16px}
 .nav a:hover,.nav a.hover{background:url(../temp/nava.jpg) no-repeat center center}
 
 .summary_bj{background:url(../temp/summary_bj.jpg); padding:15px 0}
